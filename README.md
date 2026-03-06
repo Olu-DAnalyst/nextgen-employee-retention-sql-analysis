@@ -4,7 +4,7 @@ A SQL-based HR analytics project analysing employee retention, performance trend
 
 ---
 
-# 📌 Business Overview
+#  Business Overview
 
 NextGen Corp is a rapidly growing technology company specializing in innovative software and hardware solutions. The company focuses on attracting top talent and maintaining high employee satisfaction to drive business growth.
 
@@ -18,7 +18,7 @@ To address these challenges, the HR department requires a **data-driven approach
 
 ---
 
-# ⚠ Business Challenge
+#  Business Challenge
 
 The HR team lacks a centralized analytical framework to understand workforce dynamics.
 
@@ -33,7 +33,7 @@ Without proper analysis, HR leaders cannot make informed decisions regarding **r
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 This project aims to answer key HR analytics questions:
 
@@ -139,11 +139,11 @@ Download project resources below:
 👉 [Download SQL Script](Nextgen_queries.sql)
 
 - 📊 Project Presentation  
-👉 [Download Project Overview](SQL CAPSTONE  PROJECT.pptx)
+👉 [Download Project Overview](SQL_PROJECT.pptx)
 
 ---
 
-# 📌 Conclusion
+#  Conclusion
 
 This project demonstrates how **SQL-based HR analytics** can uncover workforce patterns related to **employee retention, performance, and compensation structures**.
 
