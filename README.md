@@ -4,6 +4,7 @@ A SQL-based HR analytics project analysing employee retention, performance trend
 
 ---
 
+
 #  Business Overview
 
 NextGen Corp is a rapidly growing technology company specializing in innovative software and hardware solutions. The company focuses on attracting top talent and maintaining high employee satisfaction to drive business growth.
@@ -16,7 +17,9 @@ However, leadership has identified increasing concerns regarding:
 
 To address these challenges, the HR department requires a **data-driven approach** to analyze employee retention patterns, performance metrics, and salary distribution across the organization.
 
+
 ---
+
 
 #  Business Challenge
 
@@ -30,6 +33,7 @@ Key challenges include:
 - Insufficient insights into **salary fairness and compensation benchmarks**
 
 Without proper analysis, HR leaders cannot make informed decisions regarding **retention strategies, compensation structures, or workforce planning**.
+
 
 ---
 
@@ -55,6 +59,7 @@ This project aims to answer key HR analytics questions:
 - How many employees earn **above $80,000**?
 - How does **performance correlate with salary across departments**?
 
+
 ---
 
 # 🛠 Tools & Technologies
@@ -63,6 +68,7 @@ This project aims to answer key HR analytics questions:
 - **SQL (Advanced Queries)**
 - **Data Aggregation & Window Functions**
 - **HR Analytics**
+
 
 ---
 
@@ -77,9 +83,10 @@ The analysis was conducted using multiple relational tables:
 - `turnover`
 - `attendance`
 
+
 ---
 
-# 📊 Key Insights
+#  Key Insights
 
 ### Employee Retention
 
@@ -89,6 +96,7 @@ The analysis was conducted using multiple relational tables:
 
 Key takeaway:
 High turnover in specific departments indicates **localized organizational issues rather than company-wide problems**.
+
 
 ---
 
@@ -101,6 +109,7 @@ High turnover in specific departments indicates **localized organizational issue
 Key takeaway:
 The workforce overall performs well, but **performance variance still exists across departments**.
 
+
 ---
 
 ### Salary Insights
@@ -110,6 +119,7 @@ The workforce overall performs well, but **performance variance still exists acr
 - **43.3% of employees earn above $80,000**
 
 Salary distribution highlights the need for **equitable compensation policies across departments**.
+
 
 ---
 
@@ -129,6 +139,7 @@ These insights support:
 - Better **performance management frameworks**
 - Stronger **workforce planning decisions**
 
+
 ---
 
 # 📁 Project Files
@@ -141,6 +152,7 @@ Download project resources below:
 - 📊 Project Presentation  
 👉 [Download Project Overview](SQL_PROJECT.pptx)
 
+
 ---
 
 #  Conclusion
@@ -148,6 +160,7 @@ Download project resources below:
 This project demonstrates how **SQL-based HR analytics** can uncover workforce patterns related to **employee retention, performance, and compensation structures**.
 
 By transforming HR data into actionable insights, organizations can make **better strategic decisions around talent management and workforce optimization**.
+
 
 ---
 
