@@ -216,34 +216,6 @@ These insights help HR leadership:
 - Strengthen **performance management systems**
 - Optimise **workforce planning decisions**
 
----
-
-## 📁 Project Files
-
-Download the project resources below:
-
-- 🗄 SQL Queries  
-[Download SQL Script](Nextgen_queries.sql)
-
-- 📊 Project Presentation  
-[Download Project Overview](SQL CAPSTONE PROJECT.pptx)
-
----
-
-## 📌 Conclusion
-
-This project demonstrates how SQL can be used to perform **HR analytics and workforce analysis**, uncovering patterns in employee retention, performance, and compensation structures.
-
-By transforming HR data into actionable insights, organisations can make **better strategic decisions regarding talent management and workforce optimisation**.
-
----
-
-## 👤 Author
-
-**Oluwasegun Balogun**
-
-Data Analyst | SQL | Power BI | Tableau | Excel  
-Focused on building **data-driven solutions that translate complex data into clear business insights.**
 
 ---
 
@@ -260,7 +232,7 @@ Download project resources below:
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates how SQL can be used to perform **HR analytics and workforce analysis**, uncovering patterns in employee retention, performance, and compensation structures.
 
