@@ -4,7 +4,7 @@ A SQL-based HR analytics project analysing employee retention, performance trend
 
 ---
 
-##  Business Overview
+## 📊Business Overview
 
 NextGen Corp is a rapidly growing technology company specializing in innovative software and hardware solutions. The company focuses on attracting top talent and maintaining high employee satisfaction to drive business growth.
 
@@ -18,7 +18,7 @@ To address these challenges, the HR department requires a **data-driven approach
 
 ---
 
-##  Business Challenge
+## ⚠️Business Challenge
 
 The HR team lacks a centralized analytical framework to understand workforce dynamics and support data-driven decision making.
 
@@ -33,7 +33,7 @@ Without these insights, HR leadership cannot effectively design **retention stra
 
 ---
 
-##  Project Objectives
+## 🎯Project Objectives
 
 This project aims to answer key HR analytics questions.
 
@@ -87,6 +87,8 @@ The analysis was conducted using multiple relational tables:
 
 This analysis identifies departments with the highest employee turnover rates and highlights key drivers behind employee attrition.
 
+👉 Key takeaway: Turnover is not evenly distributed, indicating department-specific risks that require targeted intervention.
+
 ---
 
 ### Performance Analysis
@@ -126,7 +128,7 @@ ORDER BY turnover_rate_percent DESC;
 
 **Insight**
 
-This query calculates the turnover rate across departments, helping identify departments experiencing high employee attrition.
+This analysis reveals that turnover is disproportionately concentrated in specific departments, highlighting areas where targeted retention strategies are required.
 
 ---
 
@@ -178,43 +180,76 @@ Examines how salary aligns with employee performance across departments.
 
 ## 📊 Key Insights
 
-### Employee Retention
+### ⭐ Critical Insight: Turnover is heavily concentrated in specific departments  
+Marketing (**92.86%**) and Engineering (**66.67%**) show significantly higher turnover rates compared to other departments.  
 
-- **Marketing (92.86%) and Engineering (66.67%)** show the highest turnover rates.
-- Long-serving employees were mostly hired between **2015–2016**.
-- “Personal reasons” accounted for the largest proportion of exits.
+**Implication:**  
+Employee attrition is not organisation-wide but driven by **department-specific issues**, such as workload, management practices, or role expectations.  
 
-### Performance Trends
+### 1. High turnover rates indicate structural retention issues  
+Departments with turnover above 60% suggest systemic challenges rather than isolated employee exits.  
 
-- **28 out of 60 employees** have left the organisation.
-- Engineering and Marketing contain the largest number of extreme performance scores.
-- All departments maintain relatively strong average performance levels between **4.01 – 4.17**.
+**Implication:**  
+Retention strategies must be **targeted at high-risk departments**, rather than applied uniformly across the organisation.  
 
-### Salary Analysis
+### 2. Nearly half of the workforce has left the organisation  
+**28 out of 60 employees (~47%)** have exited, indicating significant workforce instability.  
 
-- Total annual salary expense: **$4,850,000**
-- Average salary per employee: **$80,833**
-- **43.3% of employees earn above $80,000**
+**Implication:**  
+High attrition increases recruitment costs, disrupts team continuity, and impacts overall productivity.  
 
-However, salary distribution does not consistently align with performance across departments.
+### 3. Performance alone is not a reliable predictor of retention  
+Despite relatively strong average performance scores (**4.01–4.17**), high turnover persists.  
+
+**Implication:**  
+Employee exits are likely influenced by **non-performance factors**, such as job satisfaction, compensation, or workplace environment.  
+
+### 4. Salary distribution is misaligned with performance  
+Analysis shows inconsistencies between salary levels and employee performance across departments.  
+
+**Implication:**  
+Compensation structures may not effectively reward high performers, increasing the risk of losing valuable talent.  
+
+### 5. Mid-tenure employees represent a critical retention risk window  
+Employees hired between **2015–2016** represent a large portion of long-serving staff, while newer employees show higher exit tendencies.  
+
+**Implication:**  
+Retention strategies should focus on employees within their **first 1–3 years**, where attrition risk is highest.  
+
+---
+
+## 💡 Recommended Actions  
+
+- Implement **targeted retention strategies** for high-turnover departments (Marketing & Engineering)  
+- Conduct **employee engagement and exit surveys** to identify root causes of attrition  
+- Align **compensation structures with performance** to retain high-performing employees  
+- Introduce **early-tenure retention programs** (first 1–3 years)  
+- Monitor **employee risk levels** using performance-based segmentation
 
 ---
 
 ## 📈 Business Impact
 
-The analysis revealed several strategic insights for HR decision-making:
+This analysis enables HR leadership to:
 
-- Identified departments with **critical employee turnover risk**
-- Highlighted **misalignment between compensation and performance**
-- Provided visibility into **employee retention drivers**
-- Supported **data-driven workforce planning and compensation strategy**
+- Reduce employee turnover by targeting high-risk departments  
+- Improve talent retention through better compensation alignment  
+- Lower recruitment and onboarding costs  
+- Enhance workforce stability and overall productivity  
+- Support data-driven workforce planning and strategic HR decision-making  
 
-These insights help HR leadership:
+**Potential Outcome:**  
+Applying these insights could significantly reduce attrition rates, improve employee satisfaction, and strengthen long-term organisational performance.
 
-- Improve **employee retention strategies**
-- Design **fair compensation structures**
-- Strengthen **performance management systems**
-- Optimise **workforce planning decisions**
+👉 This positions HR to move from reactive decision-making to proactive workforce strategy.
+
+---
+
+## 🎯 Conclusion  
+
+This project demonstrates how SQL can be used not just for querying data, but for **driving strategic workforce decisions**.  
+
+By analysing employee retention, performance, and compensation together, this solution provides a **holistic view of workforce dynamics**, enabling organisations to move from reactive HR management to a more **proactive, data-driven talent strategy**.  
 
 
 ---
@@ -230,13 +265,6 @@ Download project resources below:
 👉 [Download Project Overview](SQL_PROJECT.pptx)
 
 
----
-
-##  Conclusion
-
-This project demonstrates how SQL can be used to perform **HR analytics and workforce analysis**, uncovering patterns in employee retention, performance, and compensation structures.
-
-By transforming HR data into actionable insights, organisations can make **better strategic decisions regarding talent management and workforce optimisation**.
 
 ---
 
